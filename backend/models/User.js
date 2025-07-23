@@ -4,8 +4,7 @@ import bcrypt from 'bcrypt';
 const userSchema = new mongoose.Schema({
     username: {
         type: String,
-        required: true,
-        unique: true
+        required: true
     },
     email:    {
         type: String,
@@ -20,6 +19,22 @@ const userSchema = new mongoose.Schema({
         type: Boolean,
         default: false
     },
+    startDate: {
+        type: Date,
+        default: Date.now
+    },
+    currentDay: {
+        type: Number,
+        default: 1
+    },
+    favorites: [{
+        type: String,
+        ref: 'Excerpt'
+    }],
+    startExcerptIndex: {
+        type: Number,
+        default: 0
+    }
 }, { timestamps: true });
 
 userSchema.pre('save', async function (next) {

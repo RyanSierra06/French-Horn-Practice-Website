@@ -1,88 +1,182 @@
 import React from 'react'
-import { format } from 'date-fns'
+import { Link } from 'react-router-dom'
+import { Headphones, Calendar, User, Music, Target, BookOpen, Trophy } from 'lucide-react'
+import { useAuth } from '../contexts/AuthContext.jsx'
 
 export default function HomePage() {
-    const today = new Date()
-    const excerpt = {
-        title: "Scheherazade",
-        composer: "Rimsky-Korsakov",
-        work: "Festival at Baghdad",
-        difficulty: 4,
-        key: "E major",
-        time: "4/4",
-        measures: "234–253",
-        tempo: "Allegro molto (♩=168)"
-    }
-    const progress = {
-        completed: 8,
-        currentDay: 11,
-        streak: 2,
-        bestStreak: 4,
-        percent: 73
-    }
+    const { user } = useAuth()
 
     return (
-        <main className="max-w-3xl mx-auto p-6 space-y-8">
-            {/* Header */}
-            <header className="text-center">
-                <h1 className="text-3xl font-serif font-bold">Day {progress.currentDay} • {format(today, 'EEEE, MMMM do')}</h1>
-                <p className="text-gray-600 mt-1">Your daily French horn excerpt</p>
-            </header>
-
-            {/* Progress Card */}
-            <section className="bg-yellow-50 border border-yellow-200 p-6 rounded-lg shadow">
-                <h2 className="font-semibold mb-4">Your Progress</h2>
-                <div className="grid grid-cols-2 gap-4 text-center">
-                    <div>
-                        <p className="text-sm text-gray-600">Completed</p>
-                        <p className="text-xl font-bold text-yellow-700">{progress.completed}</p>
+        <div className="min-h-screen bg-yellow-50">
+            <main className="max-w-6xl mx-auto p-6 space-y-12 pt-24">
+                <section className="text-center space-y-6">
+                    <div className="flex justify-center mb-6">
+                        <div className="w-20 h-20 rounded-full bg-yellow-200 flex items-center justify-center shadow-lg">
+                            <img
+                                src="/122355-200.png"
+                                alt="French Horn Icon"
+                                className="w-12 h-12 object-contain"
+                                draggable={false}
+                            />
+                        </div>
                     </div>
-                    <div>
-                        <p className="text-sm text-gray-600">Best Streak</p>
-                        <p className="text-xl font-bold text-yellow-700">{progress.bestStreak}</p>
+                    <h1 className="text-5xl font-serif font-bold text-gray-800 leading-tight">
+                        33 Days of French Horn
+                    </h1>
+                    <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
+                        Master the most essential orchestral excerpts in just 33 days. 
+                        A structured practice program designed for serious French horn players.
+                    </p>
+                    <div className="flex justify-center space-x-4 pt-4">
+                        <Link 
+                            to="/today" 
+                            className="flex items-center space-x-2 px-6 py-3 bg-yellow-600 text-white rounded-lg hover:bg-yellow-700 transition shadow-md"
+                        >
+                            <Headphones className="w-5 h-5" />
+                            <span>Start Practicing</span>
+                        </Link>
+                        {!user && (
+                            <Link 
+                                to="/register" 
+                                className="flex items-center space-x-2 px-6 py-3 bg-white text-yellow-700 border-2 border-yellow-600 rounded-lg hover:bg-yellow-50 transition shadow-md"
+                            >
+                                <User className="w-5 h-5" />
+                                <span>Create Account</span>
+                            </Link>
+                        )}
                     </div>
-                </div>
-                <div className="mt-4 bg-yellow-100 h-2 rounded">
-                    <div className="bg-yellow-600 h-2 rounded" style={{ width: `${progress.percent}%` }} />
-                </div>
-                <p className="text-right text-sm text-yellow-800 mt-1">{progress.percent}%</p>
-            </section>
+                </section>
 
-            {/* Excerpt Card */}
-            <section className="bg-white border border-gray-100 p-6 rounded-lg shadow">
-                <h2 className="text-2xl font-serif font-bold">{excerpt.title}</h2>
-                <p className="text-gray-600 mb-4">{excerpt.composer} • {excerpt.work}</p>
+                <section className="space-y-8">
+                    <h2 className="text-3xl font-serif font-bold text-gray-800 text-center">
+                        What You'll Get
+                    </h2>
+                    <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                        <div className="bg-white p-6 rounded-lg shadow-md border border-yellow-100 hover:transform hover:scale-105 hover:shadow-xl transition-all duration-300 ease-in-out cursor-pointer">
+                            <div className="w-12 h-12 bg-yellow-100 rounded-lg flex items-center justify-center mb-4">
+                                <Music className="w-6 h-6 text-yellow-700" />
+                            </div>
+                            <h3 className="text-xl font-semibold text-gray-800 mb-2">33 Essential Excerpts</h3>
+                            <p className="text-gray-600">
+                                Carefully curated selection of the most frequently requested orchestral excerpts, 
+                                from Bach to Strauss.
+                            </p>
+                        </div>
 
-                <div className="flex flex-wrap gap-2 mb-4">
-                    <span className="px-3 py-1 bg-yellow-200 text-yellow-800 rounded-full text-sm">Level {excerpt.difficulty}</span>
-                    <span className="px-3 py-1 border rounded-full text-sm text-gray-600">{excerpt.key}</span>
-                    <span className="px-3 py-1 border rounded-full text-sm text-gray-600">{excerpt.time}</span>
-                </div>
+                        <div className="bg-white p-6 rounded-lg shadow-md border border-yellow-100 hover:transform hover:scale-105 hover:shadow-xl transition-all duration-300 ease-in-out cursor-pointer">
+                            <div className="w-12 h-12 bg-yellow-100 rounded-lg flex items-center justify-center mb-4">
+                                <Target className="w-6 h-6 text-yellow-700" />
+                            </div>
+                            <h3 className="text-xl font-semibold text-gray-800 mb-2">Daily Practice Structure</h3>
+                            <p className="text-gray-600">
+                                One excerpt per day with sheet music, audio recordings, and detailed practice guidance.
+                            </p>
+                        </div>
 
-                <p className="text-sm text-gray-700 mb-4">{excerpt.tempo}</p>
-                <p className="text-sm text-gray-700 mb-6">Measures: {excerpt.measures}</p>
+                        <div className="bg-white p-6 rounded-lg shadow-md border border-yellow-100 hover:transform hover:scale-105 hover:shadow-xl transition-all duration-300 ease-in-out cursor-pointer">
+                            <div className="w-12 h-12 bg-yellow-100 rounded-lg flex items-center justify-center mb-4">
+                                <Calendar className="w-6 h-6 text-yellow-700" />
+                            </div>
+                            <h3 className="text-xl font-semibold text-gray-800 mb-2">Progress Tracking</h3>
+                            <p className="text-gray-600">
+                                Monitor your daily progress, mark completed excerpts, and track your practice streak.
+                            </p>
+                        </div>
 
-                <div className="bg-yellow-50 border-2 border-dashed border-yellow-300 p-8 rounded text-center mb-6">
-                    <p className="text-yellow-700 font-medium">🎵 Sheet Music</p>
-                    <p className="text-xs text-gray-500 mt-1">{excerpt.measures}</p>
-                </div>
+                        <div className="bg-white p-6 rounded-lg shadow-md border border-yellow-100 hover:transform hover:scale-105 hover:shadow-xl transition-all duration-300 ease-in-out cursor-pointer">
+                            <div className="w-12 h-12 bg-yellow-100 rounded-lg flex items-center justify-center mb-4">
+                                <BookOpen className="w-6 h-6 text-yellow-700" />
+                            </div>
+                            <h3 className="text-xl font-semibold text-gray-800 mb-2">Detailed Resources</h3>
+                            <p className="text-gray-600">
+                                High-quality sheet music, professional audio recordings, and performance notes for each excerpt.
+                            </p>
+                        </div>
 
-                <button className="w-full py-2 bg-yellow-600 text-white rounded hover:bg-yellow-700 transition">
-                    Mark as Practiced
-                </button>
-            </section>
+                        <div className="bg-white p-6 rounded-lg shadow-md border border-yellow-100 hover:transform hover:scale-105 hover:shadow-xl transition-all duration-300 ease-in-out cursor-pointer">
+                            <div className="w-12 h-12 bg-yellow-100 rounded-lg flex items-center justify-center mb-4">
+                                <Trophy className="w-6 h-6 text-yellow-700" />
+                            </div>
+                            <h3 className="text-xl font-semibold text-gray-800 mb-2">Achievement System</h3>
+                            <p className="text-gray-600">
+                                Earn badges and track your best practice streaks as you complete the program.
+                            </p>
+                        </div>
 
-            {/* Practice Tips */}
-            <section className="bg-green-50 border border-green-200 p-6 rounded-lg">
-                <h3 className="font-semibold mb-3">Practice Tips</h3>
-                <ul className="list-disc list-inside text-gray-700 space-y-1 text-sm">
-                    <li>Start slow to ensure accuracy</li>
-                    <li>Focus on breath support and tone</li>
-                    <li>Break difficult passages into sections</li>
-                    <li>Record yourself to track progress</li>
-                    <li>Mark as completed when satisfied</li>
-                </ul>
-            </section>
-        </main>
+                        <div className="bg-white p-6 rounded-lg shadow-md border border-yellow-100 hover:transform hover:scale-105 hover:shadow-xl transition-all duration-300 ease-in-out cursor-pointer">
+                            <div className="w-12 h-12 bg-yellow-100 rounded-lg flex items-center justify-center mb-4">
+                                <User className="w-6 h-6 text-yellow-700" />
+                            </div>
+                            <h3 className="text-xl font-semibold text-gray-800 mb-2">Personalized Experience</h3>
+                            <p className="text-gray-600">
+                                Create an account to save your progress, bookmark favorite excerpts, and access your practice history.
+                            </p>
+                        </div>
+                    </div>
+                </section>
+
+                <section className="bg-white rounded-lg shadow-md border border-yellow-100 p-8">
+                    <h2 className="text-3xl font-serif font-bold text-gray-800 text-center mb-8">
+                        How It Works
+                    </h2>
+                    <div className="grid md:grid-cols-3 gap-8">
+                        <div className="text-center space-y-4">
+                            <div className="w-16 h-16 bg-yellow-600 text-white rounded-full flex items-center justify-center mx-auto text-2xl font-bold">
+                                1
+                            </div>
+                            <h3 className="text-xl font-semibold text-gray-800">Start Your Journey</h3>
+                            <p className="text-gray-600">
+                                Begin with today's excerpt. Each day features a new piece from the orchestral repertoire.
+                            </p>
+                        </div>
+                        <div className="text-center space-y-4">
+                            <div className="w-16 h-16 bg-yellow-600 text-white rounded-full flex items-center justify-center mx-auto text-2xl font-bold">
+                                2
+                            </div>
+                            <h3 className="text-xl font-semibold text-gray-800">Practice Daily</h3>
+                            <p className="text-gray-600">
+                                Use the provided sheet music and audio recordings to practice each excerpt thoroughly.
+                            </p>
+                        </div>
+                        <div className="text-center space-y-4">
+                            <div className="w-16 h-16 bg-yellow-600 text-white rounded-full flex items-center justify-center mx-auto text-2xl font-bold">
+                                3
+                            </div>
+                            <h3 className="text-xl font-semibold text-gray-800">Track Progress</h3>
+                            <p className="text-gray-600">
+                                Mark excerpts as completed, build your streak, and watch your skills improve over 33 days.
+                            </p>
+                        </div>
+                    </div>
+                </section>
+
+                <section className="text-center space-y-6 bg-yellow-100 rounded-lg p-8">
+                    <h2 className="text-3xl font-serif font-bold text-gray-800">
+                        Ready to Master the French Horn?
+                    </h2>
+                    <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+                        Join hundreds of French horn players who have transformed their playing with our structured practice program.
+                    </p>
+                    <div className="flex justify-center space-x-4">
+                        <Link 
+                            to="/today" 
+                            className="flex items-center space-x-2 px-8 py-4 bg-yellow-600 text-white rounded-lg hover:bg-yellow-700 transition shadow-lg text-lg font-semibold"
+                        >
+                            <Headphones className="w-6 h-6" />
+                            <span>Begin Today's Practice</span>
+                        </Link>
+                        {!user && (
+                            <Link 
+                                to="/register" 
+                                className="flex items-center space-x-2 px-8 py-4 bg-white text-yellow-700 border-2 border-yellow-600 rounded-lg hover:bg-yellow-50 transition shadow-lg text-lg font-semibold"
+                            >
+                                <User className="w-6 h-6" />
+                                <span>Create Free Account</span>
+                            </Link>
+                        )}
+                    </div>
+                </section>
+            </main>
+        </div>
     )
 }

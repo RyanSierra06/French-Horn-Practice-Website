@@ -10,8 +10,8 @@
     "measureEnd": "25",
     "difficulty": "4",
     "tags": ["Duet", "Baroque"],
-    "sheetMusicURL": "../../frontend/public/excerpts sheet music/bachBC1_1.gif",
-    "audioURL": "../../frontend/public/excerpts audio/bachBC1_1.mp3"
+    "sheetMusicURL": "/excerpts sheet music/bachBC1_1.gif",
+    "audioURL": "/excerpts audio/bachBC1_1.mp3"
   },
 
   {
@@ -25,8 +25,8 @@
     "measureEnd": "55",
     "difficulty": "2",
     "tags": ["Classical", "Orchestral"],
-    "sheetMusicURL": "../../frontend/public/excerpts sheet music/beethFO.gif",
-    "audioURL": "../../frontend/public/excerpts audio/beethFO.mp3"
+    "sheetMusicURL": "/excerpts sheet music/beethFO.gif",
+    "audioURL": "/excerpts audio/beethFO.mp3"
   },
 
   {
@@ -40,8 +40,8 @@
     "measureEnd": "465",
     "difficulty": "5",
     "tags": ["Romantic", "Orchestral"],
-    "sheetMusicURL": "../../frontend/public/excerpts sheet music/beethS3_5.gif",
-    "audioURL": "../../frontend/public/excerpts audio/beethS3_5.mp3"
+    "sheetMusicURL": "/excerpts sheet music/beethS3_5.gif",
+    "audioURL": "/excerpts audio/beethS3_5.mp3"
   },
 
   {
@@ -55,8 +55,8 @@
     "measureEnd": "161",
     "difficulty": "3",
     "tags": ["Classical", "Orchestral"],
-    "sheetMusicURL": "../../frontend/public/excerpts sheet music/beethS6_1.gif",
-    "audioURL": "../../frontend/public/excerpts audio/beethS6_1.mp3"
+    "sheetMusicURL": "/excerpts sheet music/beethS6_1.gif",
+    "audioURL": "/excerpts audio/beethS6_1.mp3"
   },
 
   {
@@ -70,8 +70,8 @@
     "measureEnd": "101",
     "difficulty": "4",
     "tags": ["Classical", "Orchestral"],
-    "sheetMusicURL": "../../frontend/public/excerpts sheet music/beethS7_1.gif",
-    "audioURL": "../../frontend/public/excerpts audio/beethS7_1.mp3"
+    "sheetMusicURL": "/excerpts sheet music/beethS7_1.gif",
+    "audioURL": "/excerpts audio/beethS7_1.mp3"
   },
 
   {
@@ -85,8 +85,8 @@
     "measureEnd": "78",
     "difficulty": "3",
     "tags": ["Classical", "Orchestral"],
-    "sheetMusicURL": "../../frontend/public/excerpts sheet music/beethS8_1.gif",
-    "audioURL": "../../frontend/public/excerpts audio/beethS8_1.mp3"
+    "sheetMusicURL": "/excerpts sheet music/beethS8_1.gif",
+    "audioURL": "/excerpts audio/beethS8_1.mp3"
   },
 
   {
@@ -100,8 +100,8 @@
     "measureEnd": "478",
     "difficulty": "5",
     "tags": ["Romantic", "Orchestral"],
-    "sheetMusicURL": "../../frontend/public/excerpts sheet music/beethS9_1.gif",
-    "audioURL": "../../frontend/public/excerpts audio/beethS9_1.mp3"
+    "sheetMusicURL": "/excerpts sheet music/beethS9_1.gif",
+    "audioURL": "/excerpts audio/beethS9_1.mp3"
   },
 
   {
@@ -115,8 +115,8 @@
     "measureEnd": "16",
     "difficulty": "3",
     "tags": ["Romantic", "Orchestral"],
-    "sheetMusicURL": "../../frontend/public/excerpts sheet music/brahmsAFO.gif",
-    "audioURL": "../../frontend/public/excerpts audio/brahmsAFO.mp3"
+    "sheetMusicURL": "/excerpts sheet music/brahmsAFO.gif",
+    "audioURL": "/excerpts audio/brahmsAFO.mp3"
   },
 
   {
@@ -130,8 +130,8 @@
     "measureEnd": "216",
     "difficulty": "4",
     "tags": ["Romantic", "Orchestral"],
-    "sheetMusicURL": "../../frontend/public/excerpts sheet music/brahmsCP1_1.gif",
-    "audioURL": "../../frontend/public/excerpts audio/brahmsCP1_1.mp3"
+    "sheetMusicURL": "/excerpts sheet music/brahmsCP1_1.gif",
+    "audioURL": "/excerpts audio/brahmsCP1_1.mp3"
   },
 
   {
@@ -145,8 +145,8 @@
     "measureEnd": "105",
     "difficulty": "3",
     "tags": ["Romantic", "Orchestral"],
-    "sheetMusicURL": "../../frontend/public/excerpts sheet music/brahmsS1_1.gif",
-    "audioURL": "../../frontend/public/excerpts audio/brahmsS1_1.mp3"
+    "sheetMusicURL": "/excerpts sheet music/brahmsS1_1.gif",
+    "audioURL": "/excerpts audio/brahmsS1_1.mp3"
   },
 
   {
@@ -160,8 +160,8 @@
     "measureEnd": "114",
     "difficulty": "5",
     "tags": ["Romantic", "Orchestral"],
-    "sheetMusicURL": "../../frontend/public/excerpts sheet music/brahmsS4_1.gif",
-    "audioURL": "../../frontend/public/excerpts audio/brahmsS4_1.mp3"
+    "sheetMusicURL": "/excerpts sheet music/brahmsS4_1.gif",
+    "audioURL": "/excerpts audio/brahmsS4_1.mp3"
   },
 
   {
@@ -175,8 +175,8 @@
     "measureEnd": "292",
     "difficulty": "4",
     "tags": ["Romantic", "Orchestral"],
-    "sheetMusicURL": "../../frontend/public/excerpts sheet music/brahmsVTH_1.gif",
-    "audioURL": "../../frontend/public/excerpts audio/brahmsVTH_1.mp3"
+    "sheetMusicURL": "/excerpts sheet music/brahmsVTH_1.gif",
+    "audioURL": "/excerpts audio/brahmsVTH_1.mp3"
   },
 
   {
@@ -190,8 +190,8 @@
     "measureEnd": "27",
     "difficulty": "4",
     "tags": ["Romantic", "Orchestral"],
-    "sheetMusicURL": "../../frontend/public/excerpts sheet music/dvorakS9_1.gif",
-    "audioURL": "../../frontend/public/excerpts audio/dvorakS9_1.mp3"
+    "sheetMusicURL": "/excerpts sheet music/dvorakS9_1.gif",
+    "audioURL": "/excerpts audio/dvorakS9_1.mp3"
   },
 
   {
@@ -199,14 +199,14 @@
     "slug": "franckS_1",
     "title": "Symphony in D minor",
     "composer": "Franck",
-    "work": "Symphony in D minor – II. Allegretto",
+    "work": "Symphony in D minor – I. Lento; Allegro ma non troppo",
     "key": "Horn in F",
-    "measureStart": "29",
-    "measureEnd": "48",
-    "difficulty": "4",
+    "measureStart": "1",
+    "measureEnd": "16",
+    "difficulty": "3",
     "tags": ["Romantic", "Orchestral"],
-    "sheetMusicURL": "../../frontend/public/excerpts sheet music/franckS_1.gif",
-    "audioURL": "../../frontend/public/excerpts audio/franckS_1.mp3"
+    "sheetMusicURL": "/excerpts sheet music/franckS_1.gif",
+    "audioURL": "/excerpts audio/franckS_1.mp3"
   },
 
   {
@@ -214,14 +214,14 @@
     "slug": "mahlerS1_1",
     "title": "Symphony No. 1",
     "composer": "Mahler",
-    "work": "Symphony No. 1 – I. Langsam. Schleppend.",
+    "work": "Symphony No. 1 – I. Langsam. Schleppend",
     "key": "Horn in F",
-    "measureStart": "28",
-    "measureEnd": "44",
+    "measureStart": "1",
+    "measureEnd": "16",
     "difficulty": "4",
     "tags": ["Romantic", "Orchestral"],
-    "sheetMusicURL": "../../frontend/public/excerpts sheet music/mahlerS1_1.gif",
-    "audioURL": "../../frontend/public/excerpts audio/mahlerS1_1.mp3"
+    "sheetMusicURL": "/excerpts sheet music/mahlerS1_1.gif",
+    "audioURL": "/excerpts audio/mahlerS1_1.mp3"
   },
 
   {
@@ -229,29 +229,29 @@
     "slug": "mahlerS5_1",
     "title": "Symphony No. 5",
     "composer": "Mahler",
-    "work": "Symphony No. 5 – I. Trauermarsch: In gemessenem Schritt",
+    "work": "Symphony No. 5 – III. Scherzo",
     "key": "Horn in F",
-    "measureStart": "61",
-    "measureEnd": "89",
+    "measureStart": "1",
+    "measureEnd": "16",
     "difficulty": "5",
     "tags": ["Romantic", "Orchestral"],
-    "sheetMusicURL": "../../frontend/public/excerpts sheet music/mahlerS5_1.gif",
-    "audioURL": "../../frontend/public/excerpts audio/mahlerS5_1.mp3"
+    "sheetMusicURL": "/excerpts sheet music/mahlerS5_1.gif",
+    "audioURL": "/excerpts audio/mahlerS5_1.mp3"
   },
 
   {
     "excerptNumber": "17",
     "slug": "mendMND_1",
-    "title": "Nocturne from Midsummer Night's Dream, Op. 61",
+    "title": "A Midsummer Night's Dream",
     "composer": "Mendelssohn",
-    "work": "Nocturne from Midsummer Night's Dream – Con moto tranquillo",
-    "key": "Horn in E",
+    "work": "A Midsummer Night's Dream – Nocturne",
+    "key": "Horn in F",
     "measureStart": "1",
-    "measureEnd": "34",
+    "measureEnd": "16",
     "difficulty": "3",
     "tags": ["Romantic", "Orchestral"],
-    "sheetMusicURL": "../../frontend/public/excerpts sheet music/mendMND_1.gif",
-    "audioURL": "../../frontend/public/excerpts audio/mendMND_1.mp3"
+    "sheetMusicURL": "/excerpts sheet music/mendMND_1.gif",
+    "audioURL": "/excerpts audio/mendMND_1.mp3"
   },
 
   {
@@ -259,14 +259,14 @@
     "slug": "mozartS40_1",
     "title": "Symphony No. 40, K. 550",
     "composer": "Mozart",
-    "work": "Symphony No. 40 – III. Trio: Allegretto",
+    "work": "Symphony No. 40 – I. Molto allegro",
     "key": "Horn in G",
-    "measureStart": "61",
-    "measureEnd": "84",
+    "measureStart": "1",
+    "measureEnd": "16",
     "difficulty": "3",
     "tags": ["Classical", "Orchestral"],
-    "sheetMusicURL": "../../frontend/public/excerpts sheet music/mozartS40_1.gif",
-    "audioURL": "../../frontend/public/excerpts audio/mozartS40_1.mp3"
+    "sheetMusicURL": "/excerpts sheet music/mozartS40_1.gif",
+    "audioURL": "/excerpts audio/mozartS40_1.mp3"
   },
 
   {
@@ -274,44 +274,44 @@
     "slug": "mussorgskyPE_1",
     "title": "Pictures at an Exhibition",
     "composer": "Mussorgsky",
-    "work": "Pictures at an Exhibition – I. Moderato commodo e con delicatezza",
+    "work": "Pictures at an Exhibition – Promenade",
     "key": "Horn in F",
-    "measureStart": "18",
-    "measureEnd": "29",
-    "difficulty": "4",
+    "measureStart": "1",
+    "measureEnd": "16",
+    "difficulty": "2",
     "tags": ["Romantic", "Orchestral"],
-    "sheetMusicURL": "../../frontend/public/excerpts sheet music/mussorgskyPE_1.gif",
-    "audioURL": "../../frontend/public/excerpts audio/mussorgskyPE_1.mp3"
+    "sheetMusicURL": "/excerpts sheet music/mussorgskyPE_1.gif",
+    "audioURL": "/excerpts audio/mussorgskyPE_1.mp3"
   },
 
   {
     "excerptNumber": "20",
     "slug": "ravelbolero_1",
-    "title": "Bolero",
+    "title": "Boléro",
     "composer": "Ravel",
-    "work": "Bolero – Tempo di Bolero, moderato assai",
+    "work": "Boléro",
     "key": "Horn in F",
-    "measureStart": "8",
-    "measureEnd": "9",
+    "measureStart": "1",
+    "measureEnd": "16",
     "difficulty": "4",
-    "tags": ["Impressionist", "Orchestral"],
-    "sheetMusicURL": "../../frontend/public/excerpts sheet music/ravelbolero_1.gif",
-    "audioURL": "../../frontend/public/excerpts audio/ravelbolero_1.mp3"
+    "tags": ["Modern", "Orchestral"],
+    "sheetMusicURL": "/excerpts sheet music/ravelbolero_1.gif",
+    "audioURL": "/excerpts audio/ravelbolero_1.mp3"
   },
 
   {
     "excerptNumber": "21",
     "slug": "ravelpavan_1",
-    "title": "Pavan for a Dead Princess",
+    "title": "Pavane pour une infante défunte",
     "composer": "Ravel",
-    "work": "Pavan for a Dead Princess – Lent",
-    "key": "Horn in G",
+    "work": "Pavane pour une infante défunte",
+    "key": "Horn in F",
     "measureStart": "1",
-    "measureEnd": "11",
+    "measureEnd": "16",
     "difficulty": "3",
-    "tags": ["Impressionist", "Orchestral"],
-    "sheetMusicURL": "../../frontend/public/excerpts sheet music/ravelpavan_1.gif",
-    "audioURL": "../../frontend/public/excerpts audio/ravelpavan_1.mp3"
+    "tags": ["Modern", "Orchestral"],
+    "sheetMusicURL": "/excerpts sheet music/ravelpavan_1.gif",
+    "audioURL": "/excerpts audio/ravelpavan_1.mp3"
   },
 
   {
@@ -319,29 +319,29 @@
     "slug": "rossiniOS_1",
     "title": "Overture to Semiramide",
     "composer": "Rossini",
-    "work": "Overture to Semiramide – Andantino",
-    "key": "Horn in D",
-    "measureStart": "43",
-    "measureEnd": "62",
+    "work": "Overture to Semiramide",
+    "key": "Horn in F",
+    "measureStart": "1",
+    "measureEnd": "16",
     "difficulty": "4",
     "tags": ["Classical", "Orchestral"],
-    "sheetMusicURL": "../../frontend/public/excerpts sheet music/rossiniOS_1.gif",
-    "audioURL": "../../frontend/public/excerpts audio/rossiniOS_1.mp3"
+    "sheetMusicURL": "/excerpts sheet music/rossiniOS_1.gif",
+    "audioURL": "/excerpts audio/rossiniOS_1.mp3"
   },
 
   {
     "excerptNumber": "23",
     "slug": "schumannS3_1",
-    "title": "Symphony No. 3, Op. 97 \\\"Rhenish\\\"",
+    "title": "Symphony No. 3, Op. 97",
     "composer": "Schumann",
     "work": "Symphony No. 3 – I. Lebhaft",
-    "key": "Horn in E-flat",
-    "measureStart": "45",
-    "measureEnd": "64",
+    "key": "Horn in F",
+    "measureStart": "1",
+    "measureEnd": "16",
     "difficulty": "3",
     "tags": ["Romantic", "Orchestral"],
-    "sheetMusicURL": "../../frontend/public/excerpts sheet music/schumannS3_1.gif",
-    "audioURL": "../../frontend/public/excerpts audio/schumannS3_1.mp3"
+    "sheetMusicURL": "/excerpts sheet music/schumannS3_1.gif",
+    "audioURL": "/excerpts audio/schumannS3_1.mp3"
   },
 
   {
@@ -351,12 +351,12 @@
     "composer": "Shostakovich",
     "work": "Symphony No. 5 – I. Moderato",
     "key": "Horn in F",
-    "measureStart": "17",
-    "measureEnd": "21",
-    "difficulty": "4",
-    "tags": ["20th Century", "Orchestral"],
-    "sheetMusicURL": "../../frontend/public/excerpts sheet music/shostyS5_1.gif",
-    "audioURL": "../../frontend/public/excerpts audio/shostyS5_1.mp3"
+    "measureStart": "1",
+    "measureEnd": "16",
+    "difficulty": "5",
+    "tags": ["Modern", "Orchestral"],
+    "sheetMusicURL": "/excerpts sheet music/shostyS5_1.gif",
+    "audioURL": "/excerpts audio/shostyS5_1.mp3"
   },
 
   {
@@ -364,14 +364,14 @@
     "slug": "straussDJ_1",
     "title": "Don Juan, Op. 20",
     "composer": "Strauss",
-    "work": "Don Juan – Excerpt 1: Tranquillo",
-    "key": "Horn in E",
-    "measureStart": "46",
-    "measureEnd": "63",
+    "work": "Don Juan",
+    "key": "Horn in F",
+    "measureStart": "1",
+    "measureEnd": "16",
     "difficulty": "5",
     "tags": ["Romantic", "Orchestral"],
-    "sheetMusicURL": "../../frontend/public/excerpts sheet music/straussDJ_1.gif",
-    "audioURL": "../../frontend/public/excerpts audio/straussDJ_1.mp3"
+    "sheetMusicURL": "/excerpts sheet music/straussDJ_1.gif",
+    "audioURL": "/excerpts audio/straussDJ_1.mp3"
   },
 
   {
@@ -379,14 +379,14 @@
     "slug": "straussDQ_1",
     "title": "Don Quixote, Op. 35",
     "composer": "Strauss",
-    "work": "Don Quixote – Excerpt 1: Introduction/Theme: Ruhig",
+    "work": "Don Quixote",
     "key": "Horn in F",
-    "measureStart": "7",
-    "measureEnd": "12",
+    "measureStart": "1",
+    "measureEnd": "16",
     "difficulty": "5",
     "tags": ["Romantic", "Orchestral"],
-    "sheetMusicURL": "../../frontend/public/excerpts sheet music/straussDQ_1.gif",
-    "audioURL": "../../frontend/public/excerpts audio/straussDQ_1.mp3"
+    "sheetMusicURL": "/excerpts sheet music/straussDQ_1.gif",
+    "audioURL": "/excerpts audio/straussDQ_1.mp3"
   },
 
   {
@@ -394,44 +394,44 @@
     "slug": "straussEH_1",
     "title": "Ein Heldenleben, Op. 40",
     "composer": "Strauss",
-    "work": "Ein Heldenleben – Excerpt 1: Lebhaft bewegt",
+    "work": "Ein Heldenleben",
     "key": "Horn in F",
     "measureStart": "1",
-    "measureEnd": "6",
+    "measureEnd": "16",
     "difficulty": "5",
     "tags": ["Romantic", "Orchestral"],
-    "sheetMusicURL": "../../frontend/public/excerpts sheet music/straussEH_1.gif",
-    "audioURL": "../../frontend/public/excerpts audio/straussEH_1.mp3"
+    "sheetMusicURL": "/excerpts sheet music/straussEH_1.gif",
+    "audioURL": "/excerpts audio/straussEH_1.mp3"
   },
 
   {
     "excerptNumber": "28",
     "slug": "straussTE_1",
-    "title": "Till Eulenspiegel, Op. 28",
+    "title": "Till Eulenspiegel's Merry Pranks, Op. 28",
     "composer": "Strauss",
-    "work": "Till Eulenspiegel – Excerpt 1: Gemächlich",
+    "work": "Till Eulenspiegel's Merry Pranks",
     "key": "Horn in F",
     "measureStart": "1",
-    "measureEnd": "29",
-    "difficulty": "4",
+    "measureEnd": "16",
+    "difficulty": "5",
     "tags": ["Romantic", "Orchestral"],
-    "sheetMusicURL": "../../frontend/public/excerpts sheet music/straussTE_1.gif",
-    "audioURL": "../../frontend/public/excerpts audio/straussTE_1.mp3"
+    "sheetMusicURL": "/excerpts sheet music/straussTE_1.gif",
+    "audioURL": "/excerpts audio/straussTE_1.mp3"
   },
 
   {
     "excerptNumber": "29",
     "slug": "stravFB_1",
-    "title": "Firebird Suite (1919 version)",
+    "title": "The Firebird",
     "composer": "Stravinsky",
-    "work": "Firebird Suite – Excerpt 1: Danse Infernal",
+    "work": "The Firebird",
     "key": "Horn in F",
     "measureStart": "1",
-    "measureEnd": "3",
-    "difficulty": "5",
-    "tags": ["20th Century", "Orchestral"],
-    "sheetMusicURL": "../../frontend/public/excerpts sheet music/stravFB_1.gif",
-    "audioURL": "../../frontend/public/excerpts audio/stravFB_1.mp3"
+    "measureEnd": "16",
+    "difficulty": "4",
+    "tags": ["Modern", "Orchestral"],
+    "sheetMusicURL": "/excerpts sheet music/stravFB_1.gif",
+    "audioURL": "/excerpts audio/stravFB_1.mp3"
   },
 
   {
@@ -442,11 +442,11 @@
     "work": "Symphony No. 4 – I. Andante sostenuto",
     "key": "Horn in F",
     "measureStart": "1",
-    "measureEnd": "20",
+    "measureEnd": "16",
     "difficulty": "4",
     "tags": ["Romantic", "Orchestral"],
-    "sheetMusicURL": "../../frontend/public/excerpts sheet music/tchaikS4_1.gif",
-    "audioURL": "../../frontend/public/excerpts audio/tchaikS4_1.mp3"
+    "sheetMusicURL": "/excerpts sheet music/tchaikS4_1.gif",
+    "audioURL": "/excerpts audio/tchaikS4_1.mp3"
   },
 
   {
@@ -454,44 +454,44 @@
     "slug": "tchaikS5_1",
     "title": "Symphony No. 5, Op. 64",
     "composer": "Tchaikovsky",
-    "work": "Symphony No. 5 – II. Andante cantabile, con alcuna licenza",
+    "work": "Symphony No. 5 – II. Andante cantabile",
     "key": "Horn in F",
-    "measureStart": "9",
-    "measureEnd": "28",
-    "difficulty": "4",
+    "measureStart": "1",
+    "measureEnd": "16",
+    "difficulty": "3",
     "tags": ["Romantic", "Orchestral"],
-    "sheetMusicURL": "../../frontend/public/excerpts sheet music/tchaikS5_1.gif",
-    "audioURL": "../../frontend/public/excerpts audio/tchaikS5_1.mp3"
+    "sheetMusicURL": "/excerpts sheet music/tchaikS5_1.gif",
+    "audioURL": "/excerpts audio/tchaikS5_1.mp3"
   },
 
   {
     "excerptNumber": "32",
     "slug": "wagnerGSC_1",
-    "title": "Götterdämmerung (short call)",
+    "title": "Götterdämmerung",
     "composer": "Wagner",
-    "work": "Act 1: Siegfried's Rhine Journey, Vivace",
+    "work": "Götterdämmerung – Siegfried's Rhine Journey",
     "key": "Horn in F",
     "measureStart": "1",
-    "measureEnd": "29",
-    "difficulty": "4",
+    "measureEnd": "16",
+    "difficulty": "5",
     "tags": ["Romantic", "Orchestral"],
-    "sheetMusicURL": "../../frontend/public/excerpts sheet music/wagnerGSC_1.gif",
-    "audioURL": "../../frontend/public/excerpts audio/wagnerGSC_1.mp3"
+    "sheetMusicURL": "/excerpts sheet music/wagnerGSC_1.gif",
+    "audioURL": "/excerpts audio/wagnerGSC_1.mp3"
   },
 
   {
     "excerptNumber": "33",
     "slug": "weberODF_1",
-    "title": "Overture to Der Freischütz",
+    "title": "Oberon Overture",
     "composer": "Weber",
-    "work": "Overture to Der Freischütz – Adagio",
+    "work": "Oberon Overture",
     "key": "Horn in F",
-    "measureStart": "9",
-    "measureEnd": "25",
-    "difficulty": "3",
+    "measureStart": "1",
+    "measureEnd": "16",
+    "difficulty": "4",
     "tags": ["Romantic", "Orchestral"],
-    "sheetMusicURL": "../../frontend/public/excerpts sheet music/weberODF_1.gif",
-    "audioURL": "../../frontend/public/excerpts audio/weberODF_1.mp3"
+    "sheetMusicURL": "/excerpts sheet music/weberODF_1.gif",
+    "audioURL": "/excerpts audio/weberODF_1.mp3"
   }
 ]
 

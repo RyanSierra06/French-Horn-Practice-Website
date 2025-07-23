@@ -16,15 +16,15 @@ async function seedExcerpts() {
 
     console.log(`Inserting ${excerptsData.length} excerpts…`);
     const docs = excerptsData.map(e => ({
-        excerptNumber: e.excerptNumber,
+        excerptNumber: Number(e.excerptNumber),
         slug: e.slug,
         title: e.title,
         composer: e.composer,
         work: e.work,
         key: e.key,
-        measureStart: e.measureStart,
-        measureEnd: e.measureEnd,
-        difficulty: e.difficulty,
+        measureStart: Number(e.measureStart),
+        measureEnd: Number(e.measureEnd),
+        difficulty: Number(e.difficulty),
         tags: e.tags,
         sheetMusicURL: e.sheetMusicURL,
         audioURL: e.audioURL,

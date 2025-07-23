@@ -2,15 +2,19 @@ import express from 'express';
 import {
     getTodaysExcerpt,
     getExcerptBySlug,
+    getExcerptByDay,
     createExcerpt,
     updateExcerpt,
-    deleteExcerpt
+    deleteExcerpt,
+    getAllExcerpts
 } from '../controllers/excerpts.js';
-import { requireAdmin, requireAuth } from '../middleware/auth.js';
+import { requireAdmin } from '../middleware/auth.js';
 
 const router = express.Router();
 
 router.get('/today', getTodaysExcerpt);
+router.get('/day/:day', getExcerptByDay);
+router.get('/all', getAllExcerpts);
 router.get('/:slug', getExcerptBySlug);
 
 router.post('/',       requireAdmin, createExcerpt);
