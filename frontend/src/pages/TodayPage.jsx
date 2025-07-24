@@ -11,6 +11,8 @@ export default function TodayPage() {
     const [error, setError] = useState(null)
     const [currentUserData, setCurrentUserData] = useState(null)
 
+    const VITE_BACKEND_BASE_URL = import.meta.env.VITE_BACKEND_BASE_URL
+
     const getESTDate = () => {
         const now = new Date()
         const estOffset = -5 * 60 // EST is UTC-5
@@ -29,7 +31,7 @@ export default function TodayPage() {
                 let currentUser = user;
                 if (user) {
                     try {
-                        const response = await fetch('http://localhost:4000/api/auth/me', {
+                        const response = await fetch(`${VITE_BACKEND_BASE_URL}/api/auth/me`, {
                             headers: { 'Authorization': `Bearer ${localStorage.getItem('token')}` }
                         });
                         if (response.ok) {
@@ -51,8 +53,8 @@ export default function TodayPage() {
                 }) : null
                 
                 const url = userParam 
-                    ? `http://localhost:4000/api/excerpts/today?user=${encodeURIComponent(userParam)}`
-                    : 'http://localhost:4000/api/excerpts/today'
+                    ? `${VITE_BACKEND_BASE_URL}/api/excerpts/today?user=${encodeURIComponent(userParam)}`
+                    : `${VITE_BACKEND_BASE_URL}/api/excerpts/today`
                 
                 const response = await fetch(url)
                 if (!response.ok) {

@@ -13,6 +13,8 @@ export default function CalendarPage({ dailyExcerpts, user, userProgress }) {
     const { user: authUser, token, loading: authLoading } = useAuth()
     const {progressRefreshCount } = useProfile()
 
+    const VITE_BACKEND_BASE_URL = import.meta.env.VITE_BACKEND_BASE_URL
+
     const getESTDate = () => {
         const now = new Date()
         const estOffset = -5 * 60
@@ -32,7 +34,7 @@ export default function CalendarPage({ dailyExcerpts, user, userProgress }) {
         
         const fetchCurrentDayExcerpt = async () => {
             try {
-                let url = 'http://localhost:4000/api/excerpts/today'
+                let url = `${VITE_BACKEND_BASE_URL}/api/excerpts/today`
                 
                 if (authUser) {
                     console.log('Calendar - User data being sent:', authUser)
@@ -67,7 +69,7 @@ export default function CalendarPage({ dailyExcerpts, user, userProgress }) {
 
     const fetchProgressData = async () => {
         try {
-            const res = await fetch('http://localhost:4000/api/progress', {
+            const res = await fetch(`${VITE_BACKEND_BASE_URL}/api/progress`, {
                 headers: {
                     'Authorization': `Bearer ${token}`
                 }
