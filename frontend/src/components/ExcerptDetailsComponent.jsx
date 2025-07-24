@@ -14,7 +14,7 @@ export default function ExcerptDetails({ excerpt, onProgressUpdate, readOnly = f
     const [favorited, setFavorited] = useState(false)
     const [favoriteLoading, setFavoriteLoading] = useState(false)
 
-    const VITE_BACKEND_BASE_URL=  import.meta.env.VITE_BACKEND_BASE_URL;
+    const BACKEND_BASE_URL = import.meta.env.VITE_BACKEND_BASE_URL;
 
     useEffect(() => {
         if (user && excerpt) {
@@ -25,7 +25,7 @@ export default function ExcerptDetails({ excerpt, onProgressUpdate, readOnly = f
 
     const fetchCompletionStatus = async () => {
         try {
-            const res = await fetch(`${VITE_BACKEND_BASE_URL}/api/progress/${excerpt.slug}`, {
+            const res = await fetch(`${BACKEND_BASE_URL}/api/progress/${excerpt.slug}`, {
                 headers: {
                     'Authorization': `Bearer ${token}`
                 }
@@ -41,7 +41,7 @@ export default function ExcerptDetails({ excerpt, onProgressUpdate, readOnly = f
 
     const fetchFavoriteStatus = async () => {
         try {
-            const res = await fetch(`${VITE_BACKEND_BASE_URL}/api/auth/me/favorites`, {
+            const res = await fetch(`${BACKEND_BASE_URL}/api/auth/me/favorites`, {
                 headers: { 'Authorization': `Bearer ${token}` }
             })
             if (res.ok) {
@@ -61,7 +61,7 @@ export default function ExcerptDetails({ excerpt, onProgressUpdate, readOnly = f
         setLoading(true)
         setError('')
         try {
-            const res = await fetch(`${VITE_BACKEND_BASE_URL}/api/progress`, {
+            const res = await fetch(`${BACKEND_BASE_URL}/api/progress`, {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
@@ -93,7 +93,7 @@ export default function ExcerptDetails({ excerpt, onProgressUpdate, readOnly = f
         }
         setFavoriteLoading(true)
         try {
-            const res = await fetch(`${VITE_BACKEND_BASE_URL}/api/auth/me/favorites`, {
+            const res = await fetch(`${BACKEND_BASE_URL}/api/auth/me/favorites`, {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',

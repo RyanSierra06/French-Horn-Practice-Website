@@ -10,6 +10,8 @@ export default function LoginPage() {
     const navigate = useNavigate()
     const { user, login, logout } = useAuth()
 
+    const BACKEND_BASE_URL = import.meta.env.VITE_BACKEND_BASE_URL;
+
     if (user) {
         return (
             <div className="min-h-screen flex items-center justify-center bg-yellow-50">
@@ -37,7 +39,7 @@ export default function LoginPage() {
         setError('')
         setLoading(true)
         try {
-            const res = await fetch(`${VITE_BACKEND_BASE_URL}/api/auth/login`, {
+            const res = await fetch(`${BACKEND_BASE_URL}/api/auth/login`, {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ email, password })

@@ -4,12 +4,13 @@ const AuthContext = createContext();
 
 const ProfileContext = createContext();
 
-const VITE_BACKEND_BASE_URL = import.meta.env.VITE_BACKEND_BASE_URL;
+const BACKEND_BASE_URL = import.meta.env.VITE_BACKEND_BASE_URL;
 
 export function AuthProvider({ children }) {
     const [user, setUser] = useState(null);
     const [token, setToken] = useState(null);
     const [loading, setLoading] = useState(true);
+
 
     useEffect(() => {
         const storedUser = localStorage.getItem('user');
@@ -38,7 +39,7 @@ export function AuthProvider({ children }) {
     const refreshUser = async () => {
         if (!token) return;
         try {
-            const response = await fetch(`${VITE_BACKEND_BASE_URL}/api/auth/me`, {
+            const response = await fetch(`${BACKEND_BASE_URL}/api/auth/me`, {
                 headers: { 'Authorization': `Bearer ${token}` }
             });
             if (response.ok) {
@@ -75,17 +76,17 @@ export function ProfileProvider({ children }) {
         setProfileLoading(true);
         setProfileError('');
         try {
-            const favRes = await fetch(`${VITE_BACKEND_BASE_URL}/api/auth/me/favorites`, {
+            const favRes = await fetch(`${BACKEND_BASE_URL}/api/auth/me/favorites`, {
                 headers: { 'Authorization': `Bearer ${token}` }
             });
             const favSlugs = favRes.ok ? await favRes.json() : [];
 
-            const exRes = await fetch(`${VITE_BACKEND_BASE_URL}/api/excerpts/all`);
+            const exRes = await fetch(`${BACKEND_BASE_URL}/api/excerpts/all`);
             const allExcerpts = exRes.ok ? await exRes.json() : [];
 
             const favExcerpts = allExcerpts.filter(e => favSlugs.includes(e.slug));
 
-            const progRes = await fetch(`${VITE_BACKEND_BASE_URL}/api/progress`, {
+            const progRes = await fetch(`${BACKEND_BASE_URL}/api/progress`, {
                 headers: { 'Authorization': `Bearer ${token}` }
             });
             const progress = progRes.ok ? await progRes.json() : [];

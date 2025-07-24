@@ -11,7 +11,7 @@ export default function RegisterPage() {
     const navigate = useNavigate()
     const { user, login } = useAuth()
 
-    const VITE_BACKEND_BASE_URL =  import.meta.env.VITE_BACKEND_BASE_URL;
+    const BACKEND_BASE_URL = import.meta.env.VITE_BACKEND_BASE_URL;
 
     if (user) {
         return (
@@ -34,7 +34,7 @@ export default function RegisterPage() {
         setError('')
         setLoading(true)
         try {
-            const res = await fetch(`${VITE_BACKEND_BASE_URL}/api/auth/register`, {
+            const res = await fetch(`${BACKEND_BASE_URL}/api/auth/register`, {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ username: name, email, password })
