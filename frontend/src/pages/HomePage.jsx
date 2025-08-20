@@ -24,8 +24,8 @@ export default function HomePage() {
                         33 Days of French Horn
                     </h1>
                     <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-                        Master the most essential orchestral excerpts in just 33 days. 
-                        A structured practice program designed for serious French horn players.
+                        Master the greatest orchestral excerpts in just 33 days.
+                        A structured practice program designed for High School, College, and Professional French horn players.
                     </p>
                     <div className="flex justify-center space-x-4 pt-4">
                         <Link 
@@ -58,7 +58,7 @@ export default function HomePage() {
                             </div>
                             <h3 className="text-xl font-semibold text-gray-800 mb-2">33 Essential Excerpts</h3>
                             <p className="text-gray-600">
-                                Carefully curated selection of the most frequently requested orchestral excerpts, 
+                                A carefully curated selection of frequently requested orchestral excerpts,
                                 from Bach to Strauss.
                             </p>
                         </div>
@@ -69,7 +69,7 @@ export default function HomePage() {
                             </div>
                             <h3 className="text-xl font-semibold text-gray-800 mb-2">Daily Practice Structure</h3>
                             <p className="text-gray-600">
-                                One excerpt per day with sheet music, audio recordings, and detailed practice guidance.
+                                One excerpt per day with high quality sheet music and audio recordings built for success.
                             </p>
                         </div>
 
@@ -89,7 +89,7 @@ export default function HomePage() {
                             </div>
                             <h3 className="text-xl font-semibold text-gray-800 mb-2">Detailed Resources</h3>
                             <p className="text-gray-600">
-                                High-quality sheet music, professional audio recordings, and performance notes for each excerpt.
+                                Professional audio recordings and legible sheet music, all with different keys, time signatures, and tempos.
                             </p>
                         </div>
 
@@ -97,9 +97,9 @@ export default function HomePage() {
                             <div className="w-12 h-12 bg-yellow-100 rounded-lg flex items-center justify-center mb-4">
                                 <Trophy className="w-6 h-6 text-yellow-700" />
                             </div>
-                            <h3 className="text-xl font-semibold text-gray-800 mb-2">Achievement System</h3>
+                            <h3 className="text-xl font-semibold text-gray-800 mb-2">The Goal</h3>
                             <p className="text-gray-600">
-                                Earn badges and track your best practice streaks as you complete the program.
+                                Don't spend forever choosing what to practice, just log in and find a new excerpt you'll soon fall in love with.
                             </p>
                         </div>
 
@@ -109,7 +109,7 @@ export default function HomePage() {
                             </div>
                             <h3 className="text-xl font-semibold text-gray-800 mb-2">Personalized Experience</h3>
                             <p className="text-gray-600">
-                                Create an account to save your progress, bookmark favorite excerpts, and access your practice history.
+                                Create an account to save your progress, bookmark favorite excerpts, and access past excerpts.
                             </p>
                         </div>
                     </div>
@@ -155,7 +155,7 @@ export default function HomePage() {
                         Ready to Master the French Horn?
                     </h2>
                     <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-                        Join hundreds of French horn players who have transformed their playing with our structured practice program.
+                        Create an account today, start tracking your progress, and enjoy playing through classical music you'll soon fall in love with.
                     </p>
                     <div className="flex justify-center space-x-4">
                         <Link 
