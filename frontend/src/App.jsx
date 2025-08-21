@@ -8,6 +8,7 @@ import LoginPage from './pages/LoginPage.jsx'
 import RegisterPage from './pages/RegisterPage.jsx'
 import ProfilePage from './pages/ProfilePage.jsx'
 import { AuthProvider, ProfileProvider, useAuth } from './contexts/AuthContext.jsx'
+import { Analytics } from '@vercel/analytics/react'
 
 import { format, addDays } from 'date-fns'
 const dailyExcerpts = Array.from({ length: 33 }, (_, i) => {
@@ -69,6 +70,7 @@ export default function App() {
             <ProfileProvider>
                 <BrowserRouter>
                     <AppRoutes />
+                    <Analytics />
                 </BrowserRouter>
             </ProfileProvider>
         </AuthProvider>
