@@ -1,4 +1,4 @@
-# 30-Day French Horn Practice Website
+# 32-Day French Horn Practice Website
 
 A full-stack web app that helps users track and practice daily French Horn excerpts.
 The project uses **React, Vite, and Tailwind CSS** for the frontend, with a **Node.js, Express, and MongoDB** backend for user authentication and progress tracking.
