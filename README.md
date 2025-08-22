@@ -67,7 +67,7 @@ Each page leverages reusable React components for rendering excerpts, progress, 
 6.Your frontend and backend will be available at http://localhost:5173 and http://localhost:4000 respectively
 
 
-< img width="1314" height="856" alt="French Horn-Website-1" src="https://github.com/user-attachments/assets/299fc640-5059-4f02-8d5a-c916540d9168" />
+<img width="1314" height="856" alt="French Horn-Website-1" src="https://github.com/user-attachments/assets/299fc640-5059-4f02-8d5a-c916540d9168" />
 <img width="1265" height="848" alt="French Horn-Website-2" src="https://github.com/user-attachments/assets/cf0f38ae-a453-48f1-9e57-9f76898aa532" />
 <img width="1277" height="857" alt="French Horn-Website-3" src="https://github.com/user-attachments/assets/210f465c-23f9-4e17-8905-e96c5fa8464c" />
 <img width="1267" height="854" alt="French Horn-Website-4" src="https://github.com/user-attachments/assets/bb51dd10-d8a7-496d-b916-c47f52b81fbf" />
